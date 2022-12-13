@@ -1,14 +1,14 @@
-<div class="container my-5">
+
   <mat-toolbar class="color">
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>supervised_user_circle</mat-icon>
     </button>
     <span>CrudSystem</span>
     <span class="example-spacer"></span>
-    <button type="button" class="btn btn-warning">Add student</button>
+    <button type="button" class="btn btn-warning"(click)="openDialog()">Add student</button>
   </mat-toolbar>
   
-</div>
+  
 
 
 <router-outlet></router-outlet>
